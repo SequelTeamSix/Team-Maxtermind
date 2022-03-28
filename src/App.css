@@ -1,0 +1,453 @@
+.app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #43425d;
+  color: white;
+  height: 100vh;
+  width: 100vw;
+  z-index: 1;
+}
+
+.company-title {
+  font-size: 36px;
+}
+
+.horizontal-break {
+  width: 20vw;
+}
+
+.main-modal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+
+  background-color: #43425d;
+  z-index: 3;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 0px 10px 10px 10px rgba(0, 0, 0, 0.29);
+  height: 70vh;
+  width: 60vw;
+  max-width: 800px;
+  max-height: 800px;
+}
+
+.landing-page-button-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.button {
+  background-color: #397c90;
+  color: white;
+  font-size: 1rem;
+  border: none;
+  height: 3rem;
+  width: 10rem;
+  border-radius: 10px;
+  cursor: pointer;
+  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.25);
+}
+
+.button:hover {
+  background-color: lightblue;
+}
+
+.button:disabled {
+  opacity: 50%;
+  background-color: #397c90;
+  cursor: default;
+}
+
+.button-sm {
+  background-color: #397c90;
+  color: white;
+  font-size: 1rem;
+  border: none;
+  height: 3em;
+  width: 5rem;
+  border-radius: 10px;
+  cursor: pointer;
+  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.25);
+}
+
+.button-sm:focus {
+  background-color: #397c90;
+}
+
+.button-sm:hover {
+  background-color: lightblue;
+}
+
+.link-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #397c90;
+  text-decoration: none;
+  color: white;
+  font-size: 1rem;
+  border: none;
+  height: 3em;
+  width: 8rem;
+  border-radius: 10px;
+  cursor: pointer;
+  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.25);
+}
+
+.link-button:hover {
+  background-color: lightblue;
+}
+
+.sign-in-input-group {
+  display: flex;
+  flex-direction: column;
+  width: 15vw;
+}
+
+.sign-in-input-group > label {
+  margin-bottom: 1rem;
+}
+
+.sign-in-input-group > input,
+.sign-in-input-group > div > input {
+  background-color: #43425d;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-bottom: solid white 1px;
+  color: white;
+  height: 20px;
+  font-size: 1rem;
+}
+
+.sign-in-input-group-password {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Employee Profile Page Section */
+
+.large-modal {
+  background-color: #43425d;
+  display: flex;
+  justify-content: space-evenly;
+  border-radius: 10px;
+  box-shadow: 0px 10px 10px 10px rgba(0, 0, 0, 0.29);
+  height: 90vh;
+  width: 85vw;
+  max-width: 1100px;
+  z-index: 3;
+}
+
+.employee-profile-left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  width: 45%;
+  height: 100%;
+}
+
+.employee-profile-right {
+  /* display: flex;
+  flex-direction: column;
+  width: 35%;
+  height: 100%;
+  border-radius: 10px; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 45%;
+  height: 100%;
+  padding: 1rem;
+}
+
+.employee-profile-top {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  height: 50%;
+}
+
+.employee-profile-top-right {
+  display: flex;
+  justify-content: center;
+  column-gap: 20px;
+  align-items: center;
+  width: 100%;
+  margin-top: 5rem;
+}
+
+.employee-profile-bottom {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 40%;
+  width: 90%;
+}
+
+.employee-profile-left-top-elements {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 65%;
+  height: 75%;
+}
+
+.profile-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 60%;
+}
+
+.profile-image img {
+  /* height: 275px; */
+  width: 100%;
+  border-radius: 10%;
+}
+
+.role-preferences-container {
+  display: flex;
+  flex-direction: column;
+  border: solid black 1px;
+}
+
+.add-role-preference-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  border: solid gray 1px;
+  background-color: white;
+  color: black;
+}
+
+.role-preference-element {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 0 1rem;
+}
+
+.role-preference-element-selected {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 0 1rem;
+  background-color: lightskyblue;
+}
+
+.employee-information-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  height: 35%;
+}
+
+.employee-information-container {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Admin Page Section */
+
+.admin-large-modal {
+  background-color: #43425d;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 10px;
+  box-shadow: 0px 10px 10px 10px rgba(0, 0, 0, 0.29);
+  height: 90vh;
+  width: 85vw;
+  padding: 2rem;
+  z-index: 3;
+}
+
+.admin-top-container {
+  display: flex;
+  justify-content: space-evenly;
+  height: 15%;
+  width: 100%;
+}
+
+.admin-top-container-left {
+  display: flex;
+  gap: 2em;
+  width: 50%;
+}
+
+.admin-top-container-left-elements {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+  height: 100%;
+}
+
+.admin-top-container-left-elements img {
+  height: 50%;
+  border-radius: 50px;
+}
+
+.admin-top-container-right {
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+  width: 50%;
+}
+
+.admin-top-container-right-elements {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 1em;
+  height: 100%;
+  width: 70%;
+}
+
+.admin-main-container {
+  display: flex;
+  justify-content: space-evenly;
+  height: 65%;
+  width: 100%;
+}
+
+.admin-main-container-left {
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+}
+
+.admin-main-container-title {
+  display: flex;
+  align-items: flex-end;
+  height: 25%;
+}
+
+.admin-table-container {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  height: 75%;
+}
+
+.admin-add-role-preference-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  border: solid gray 1px;
+  background-color: white;
+  color: black;
+}
+
+.admin-add-role-preference-container:hover {
+  box-shadow: 0px 4px 4px 4px rgba(0, 0, 0, 0.29);
+}
+
+.admin-add-role-preference-container:active {
+  opacity: 50%;
+}
+
+.admin-main-container-right {
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+}
+
+.admin-button-container {
+  display: flex;
+  justify-content: end;
+  column-gap: 10px;
+  padding: 0 1rem;
+}
+
+.application-content {
+  display: flex;
+  flex-direction: column;
+  column-gap: 10px;
+  height: 40%;
+}
+
+.application-heading {
+  height: 40%;
+}
+
+.password-input {
+  width: 90%;
+}
+
+.positions-container {
+  display: flex;
+  flex-direction: column;
+  height: 80%;
+  overflow-y: scroll;
+}
+
+.application-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+  background-color: white;
+  color: black;
+  padding: 0.4rem;
+  border-radius: 10px;
+}
+
+.svg {
+  position: fixed;
+  z-index: 2;
+  padding: 0;
+  margin: 0;
+}
+
+.notification {
+  /* border: solid black 1px; */
+  display: flex;
+  justify-content: space-between;
+  background-color: #397c90;
+  color: white;
+  margin: 1rem 0;
+}
+
+.notification-container {
+  background-color: white;
+  color: black;
+  margin-bottom: 0;
+  padding: 0.5rem;
+  border-radius: 10px;
+}
+
+.popover-notifications {
+  background-color: #397c90;
+  max-height: 200px;
+  overflow-y: scroll;
+}
+
+._404 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #43425d;
+  border-radius: 10px;
+  height: 30%;
+  width: 30%;
+  font-size: larger;
+  z-index: 3;
+}
