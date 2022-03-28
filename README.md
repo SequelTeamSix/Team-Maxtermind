@@ -42,7 +42,7 @@ To-do list:
 Begin by cloning the parent repository
 ```console
 $ git clone https://github.com/SequelTeamSix/Team-Maxtermind
-$ cd Team-Maxermind
+$ cd Team-Maxtermind
 ```
 
 To get started with the back-end portion you will need [Java](https://www.oracle.com/java/technologies/downloads/) 11 or greater installed as well as [Maven](https://maven.apache.org/download.cgi) version 4 or greater
