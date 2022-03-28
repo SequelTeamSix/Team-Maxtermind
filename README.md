@@ -1,1 +1,1 @@
-# Team-Max-P2-Frontend
+# Team Maxtermind
